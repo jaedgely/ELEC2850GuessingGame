@@ -7,4 +7,5 @@ Interrupt happens when user pushes down the blue button. The LEDs will turn on/o
 
 I.e., The game starts, and four numbers, 5, 2, 3, 9 are generated. The user selects the blue LED. They must guess 5. Then, they select the orange LED. They must guess 2. 
 Once all the LEDs are on, they must input 5-2-3-9. If they do so, they win, and the external LEDs as well as the onboard LEDs will blink in rapid succession before resetting.
+
 If they input 2-5-3-9, they lost, so all the LEDs will turn off for a few seconds before resetting.
