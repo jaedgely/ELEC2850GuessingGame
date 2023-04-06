@@ -9,3 +9,7 @@ E.g., The game starts, and four numbers, 5, 2, 3, 9 are generated. The user sele
 Once all the LEDs are on, they must input 5-2-3-9. If they do so, they win, and the external LEDs as well as the onboard LEDs will blink in rapid succession before resetting.
 
 If they input 2-5-3-9, they lost, so all the LEDs will turn off for a few seconds before resetting.
+
+This project got very messy. There is most definitely a way to condense some of the if statements or while loops, most likely by creating one or two new functions, but I'd rather not touch it. Maybe one day I'll get around to it.
+
+An alternative to the global array and global variable could be to create a pointer inside the interrupt. However, the global array is more of a straight forward approach.
